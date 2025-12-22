@@ -3,8 +3,9 @@ import {MENU_DATA} from "@/data/menu-data";
 import Link from "next/link";
 import {cn} from "@/lib/utils";
 import {Menu} from "@/types/menu.interface";
+import {ClassNameIProps} from "@/types/className.interface";
 
-const NavigationLinks = ({label, href, className}:Menu ) => {
+const NavigationLinks = ({className}:ClassNameIProps ) => {
     return (
         <menu className={"flex"}>
             {MENU_DATA.map((item, index) => (
