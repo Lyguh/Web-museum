@@ -1,9 +1,15 @@
 import React from 'react';
+import Container from "@/components/shared/container";
+import Banner from "@/components/ui/banner";
+import CategotyExhibits from "@/components/widgets/categoty-exhibits";
 
 const Page = () => {
     return (
-        <div className={"bg-red-900"}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus asperiores beatae distinctio exercitationem minus nobis, nulla numquam odit quam.
+        <div className={"pt-[40px]"}>
+            <Container>
+                <Banner text={"ЭКСПОНАТЫ"}/>
+                <CategotyExhibits />
+            </Container>
         </div>
     );
 };
