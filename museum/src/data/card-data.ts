@@ -1,5 +1,4 @@
 import {CardI} from "@/types/card.interface";
-import fkf from "../../public/static/missionCardOne.png"
 export const CARDS_DATA: CardI[] = [
     {
         id: '1',
